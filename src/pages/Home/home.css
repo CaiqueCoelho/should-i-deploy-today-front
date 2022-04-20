@@ -1,0 +1,168 @@
+.title-page {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    color: #449AE2;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.subtitle-page {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    color: #449AE2;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.custom-input {
+  width: 100%;
+}
+
+.margin-top{
+  margin-top: 20px;
+}
+
+.paragraph {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 18px;
+  color: #449AE2;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.subtitle-page-left {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 20px;
+  color: #449AE2;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sub-subtitle {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 30px;
+    color: #449AE2;
+    display: block;
+}
+
+#new-line
+{
+    white-space:pre-wrap;
+}
+
+.candidate-container {
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    margin-bottom: 15px;
+}
+
+.candidate-img-container {
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    width: 33%;
+}
+
+.sub-subtitle-points {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #449AE2;
+    display: block;
+}
+
+.score-week {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 30px;
+  font-weight: bold;
+  color: #449AE2;
+  display: block;
+  margin-bottom: 25px;
+}
+
+
+.home-card {
+    background: #449AE2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #3737373D;
+    padding: 20px;
+    width: 100%;
+    border-radius: 4px;
+    opacity: 1;
+    cursor:  pointer;
+    margin-top: 10px;
+}
+
+.title-text-card {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.user-name{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+    color: #449AE2;
+    margin-left: 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+.name-photo-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+}
+
+.ranking-img-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+}
+
+.trofeu {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.disabled {
+    pointer-events:none;
+    opacity:0.7;
+}
+
+.score-positive {
+  color: aquamarine;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.score-negative {
+  color: red;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 5px;
+}
